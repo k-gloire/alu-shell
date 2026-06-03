@@ -1,2 +1,2 @@
 #!/bin/bash
-while read l; do echo "$l"; read l; done
+paste - - | cut -f1
