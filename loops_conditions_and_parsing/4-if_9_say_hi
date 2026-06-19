@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Display Best School 10 times and replace 9th iteration with Hi
+# Display Best School 10 times and print Hi on the 9th iteration
 
 count=1
 
