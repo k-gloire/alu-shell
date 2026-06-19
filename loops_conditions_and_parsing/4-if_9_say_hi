@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
+# Display Best School 10 times and print Hi on 9th iteration
 
 count=1
-
 while [ $count -le 10 ]
 do
   if [ $count -eq 9 ]
@@ -10,6 +10,5 @@ do
   else
     echo "Best School"
   fi
-
   count=$((count + 1))
 done
