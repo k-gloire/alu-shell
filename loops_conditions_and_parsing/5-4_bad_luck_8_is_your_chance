@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Display Best School with special messages for 4 and 8
 
 count=1
 

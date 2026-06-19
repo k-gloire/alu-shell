@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+# Display filenames without prefix before first dash
 
 for file in *
 do
-  echo "$file" | cut -d "-" -f 2-
+  echo "$file" | cut -d '-' -f2-
 done
